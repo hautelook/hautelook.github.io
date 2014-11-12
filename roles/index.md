@@ -39,16 +39,30 @@ Some Engineer responsibilities:
 
 Once an engineer has proven to be an effective member of the team, the engineer should start fulfilling one or two responsibilities of a [senior engineer](#senior-engineer).
 
-### QA Engineer
+### <a name="quality-engineer"></a>Quality Engineer
 
-People in QA roles should think critically about what level of testing (e.g. none, manual, automated) makes sense for each change they are working on, in each stage of that change's lifecycle (e.g. design, development, QA, release). The result of testing should be valuable feedback to engineers and product managers concerning the change's likelihood of defectiveness and confidence level of correctness.
+QA Engineers are responsible for helping us effectively focus on the quality of our products; they are not
+customs agents for what gets released, They are responsible for setting feature developers up for success in
+terms of the feature developers releasing defect free, correct code. Engineers working in quality help us
+understand our options and risks at each step of that process. To achieve these goals, they need to partner with
+engineers in the design stage, and by helping to document the surface space potentially effected by each release
+candidate (and in so doing shining a light on what the feature engineer needs to test over).
+
+People in QA roles should help us think critically about what level of testing (e.g. none, manual, automated)
+makes sense for each change they are working on, in each stage of that change's lifecycle (e.g. design,
+development, user acceptance testing, release). The result of testing should be valuable feedback to engineers
+and product managers concerning the change's likelyhood of defectiveness and confidence level of correctness.
+
+Working within iterations it can be tempting for feature engineers to test each iteration in completeness.
+Quality engineers should help us keep our focus on high value testing (instead of on completeness of testing).
 
 Some QA responsibilities:
 
    * Partner with engineers in designing new functionality, ensuring the proposed design is testable.
-   * Partner with engineers in defining test plans around new functionality.
-   * Assess the risk of changes in flight in order to inform our decision of if, when and how to deploy them.
-   * Write automated testing around new and existing functionality, in order to minimize the rate and risk of regressions. 
+   * Identify the surface space potentially affected by each release candidate (this can take the form of scenarios, test cases, etc).
+   * Help assess the risk of changes in flight (in order to inform our decision of if/when/how to deploy them).
+   * Write the automated testing infrastructure which feature engineers can plug in to to create automated tests of their changes, and get reporting thereon.
+   * Help establish processes which help us release high quality code deterministically, with good visibility to our product and other partners.
 
 ### <a name="senior-engineer"></a>Senior Engineer
 
