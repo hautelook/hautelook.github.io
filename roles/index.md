@@ -65,7 +65,7 @@ Some Senior Enigneer responsibilities:
 
 Architects are the midwives of our technology choices. They are responsible for identifying which of our problems are best solved through technology and leading our evaluation of candidate solutions. They are accountable for the results of our choices. 
 
-Architects are also responsible for making sure we introduce new technologies into our ecosystem in ways which minimize disruption to our development, qa and production environments. This means communicating to all interested parties what they are proposing we introduce and why, helping our engineers understand the considerations they should be aware of as we start making use of new technologies and proving the value of our choices, using data and examples.
+Architects are also responsible for making sure we introduce changes into our ecosystem in ways which neither disrupt our development, qa and production environments nor degrade the performance of those systems (unless done deliberately, for compelling reasons). This means (amongst other things) communicating to all potentially affected parties what we are proposing we introduce and why, helping our engineers understand the considerations they should be aware of as we start making use of new technologies and proving the value of our choices, using data and examples.
 
 Architects are responsible for the health of our implementations. They can pursue this responsibility through establishing our best practices (for development, quality assurance, deployment, monitoring and alerting, etc), code reviews, by providing mentorship (and no doubt through other ways they identify).
 
