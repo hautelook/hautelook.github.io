@@ -63,9 +63,11 @@ Some Senior Enigneer responsibilities:
 
 ## Architect
 
-Architects create the technical design after the Product Managers finish the product design. In doing so, they establish the technical vision for their engineering colleagues so engineers understand what our systems must support in terms functionality, responsiveness and scale. They ensure our infrastructure meets those requirements.
+Architects are the midwives of our technology choices. They are responsible for identifying which of our problems are best solved through technology and leading our evaluation of candidate solutions. They are accountable for the results of our choices. 
 
-The role is more akin to a shepherd than a dictator. It is critically important that architects have a [strong opinions, weakly held](http://www.saffo.com/02008/07/26/strong-opinions-weakly-held/) mindset.
+Architects are also responsible for making sure we introduce changes into our ecosystem in ways which neither disrupt our development, qa and production environments nor degrade the performance of those systems (unless done deliberately, for compelling reasons). This means (amongst other things) communicating to all potentially affected parties what we are proposing we introduce and why, helping our engineers understand the considerations they should be aware of as we start making use of new technologies and proving the value of our choices, using data and examples.
+
+Architects are responsible for the health of our implementations. They can pursue this responsibility through establishing our best practices (for development, quality assurance, deployment, monitoring and alerting, etc), code reviews, by providing mentorship (and no doubt through other ways they identify).
 
 Some Architect responsibilities:
 
