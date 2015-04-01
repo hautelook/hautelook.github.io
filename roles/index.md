@@ -3,7 +3,7 @@ layout: default
 title: Roles and Responsibilities
 ---
 
-# Backend and Frontend Roles and Responsibilities
+# E-Commerce Group Roles and Responsibilities
 
 Our teams consist of collections of technologists and product people who collectively create and extend the in-house developed technology platform which best helps HauteLook succeed in its operational and business goals. We create software which allows us to track what items we have for sale, present them to our customers (in both flash sale and persistent formats), execute sales transactions, communicate order information to our warehouse, ship orders from our warehouse to our customers, provide visibility for the business into those things and provide tooling which helps us provide excellent customer service.
 
@@ -21,23 +21,22 @@ As a department we hold ourselves to the following expectations, regardless of r
 
 ## Engineer
 
-The primary job of an engineer at HauteLook is to create quality solutions to business problems, ideally in the most pragmatic way possible. Value [bazaar over cathedral](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar). 
+The primary job of an engineer at HauteLook is to ship a lot of excellent code as quickly as possible that has a positive impact for our customers and colleagues. An engineer should create quality solutions to business problems in the most pragmatic way possible. Value [bazaar over cathedral](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar). Value [flexibility over reusability](citation needed).
 
-An engineer should focus on learning the technology and best practices very well so they are self-sufficient within the team. A good indication of self-sufficiency is how well your Pull Requests are received by your colleagues. Only when an engineer is largely self-sufficient should they start to optimize the speed at which they develop. Speed of development should not compromise the quality of the code.
+An engineer should focus on learning the technology and best practices to become an effective contribtor on your team. A good indication of effectiveness is how well your Pull Requests are received by your colleagues. Once an engineer has proven to be an effective member of the team, the engineer should start fulfilling one or two responsibilities of a [senior engineer](#senior-engineer).
 
-
-Some Engineer responsibilities:
+Responsibilities:
 
    1. Participate as team member in creating user stories.
    1. Participate as team member in estimating the complexity and/or needed development and testing time of user stories.
-   1. Design and implement solutions defined by user stories.
+   1. Design and implement the simplest solutions to problems defined by user stories.
    1. Act as a responsible custodian of our software:
       1. Only deliberately introduce technical debt, communicating when this is happening and why.
       1. Adhere to HauteLook-identified best development, testing and documentation practices.
       1. Help to identify and socialize additional best practices and challenge misguided ones (even those currently accepted as best practices).
    1. Share in the ownership of the finished/live product, ensuring it actually accomplishes what it is supposed to do.
+   1. Actively seek help from others when blocked.
 
-Once an engineer has proven to be an effective member of the team, the engineer should start fulfilling one or two responsibilities of a [senior engineer](#senior-engineer).
 
 ### QA Engineer
 
@@ -60,6 +59,22 @@ Some Senior Enigneer responsibilities:
    * Suggest better abstractions for the code during the design and review process.
    * Solicit feedback from colleagues.
    * Proactively fix pain points.
+
+### Staff Engineer
+
+Staff Engineers are people who have a significant amount of domain knowledge. A Staff Engineer will have spent a number of years working at HauteLook as a Senior Engineer diving deep into product spaces and successfully shipping code. A Staff Engineer helps other Engineers understand how an existing code works (and sometimes doesn't work) to provide solution to a Product space. A Staff Engineer has a great working relationship with the entire Product Management department.
+
+### Senior Staff Engineer
+
+A Senior Staff Engineer holds mastery over one or more business critical Product spaces.
+
+### Principal Engineer
+
+A Principal Engineer is the de facto leader of all the engineers. They have enormous influence over the choices of technology and code design. This is a person you will rarely find in meetings with managers. They are given the most challenging tasks to solve. In addition to doing the work on their own, they are able to lead a group of engineers to solve large problems that may involve the concerted effort of multiple high-functioning engineers months to solve.
+
+### Agile Coach
+
+### Technical Agile Coach
 
 ## Architect
 
@@ -97,6 +112,46 @@ Some Engineering Management responsibilities:
    * Set people up for success, by assigning well defined responsibilities, and commensurate decision making authority.
    * Establish a culture which [embraces failure](http://queue.acm.org/detail.cfm?id=2499552).
    * Practice [Fair Process](http://hbr.org/2003/01/fair-process-managing-in-the-knowledge-economy/ar/1).
+
+### Lead Engineer
+
+Lead Engineers are people who have been successful Senior Engineers and want to take a more active role in the day to day management of the development process.
+
+Responsibilities of this role:
+
+Responsibility for codebase
+
+   * Oversee the general and day-to-day development and maintenance of the HauteLook and Rack iOS apps to ensure they deliver the best possible experience for OLOP customers and the business.
+   * Work with the Mobile Product Manager to understand business needs and design technical solutions to meet those needs in the most efficient and reliable way possible.
+   * Monitor, respond to, and manage any urgent issues that arise from the iOS apps, at any and all times of day/week/year.
+   * Thoroughly assess risks to the business relating to the iOS apps and vigilantly manage them.
+
+Leading the development work
+
+   * Work with team members individually to help them ship code that improves the experience for OLOP members and the business in the fastest, most reliable way possible.
+   * Organize development sprints into tickets and assign work to team members. 
+   * Delegate technical tasks to others on the team in line with their capabilities and preferences to maximize team productivity.
+   * Engage team members and get their feedback on designs, development process, sprints, and other issues.
+   * Be the top contributor of code to the project.
+   * Serve as the primary code reviewer for the project.
+   * Continuously monitor software development progress, be aware of obstacles and risks, and address them.
+   * Proactively fix pain points.
+   * Coordinate interactions between systems (internally and with third-party vendors) to ensure interfaces are designed to maximize accuracy, reliability, performance, and ease-of-use.
+
+Code design and feature development
+
+   * Create prototypes to validate architecture and designs.
+   * Design code architecture to maximize performance, stability, and maintainability in a pragmatic way.
+   * Help decide what trade-offs are to be made in the design for a given system. Manage documenting and communicating these changes to all affected parties.
+   * Take any other steps related to code design, development, and management that are necessary for the success of the iOS apps and the Mobile team.
+   * Collaborate with engineers on other teams, such as API engineers, to ensure two-way communication, with clear expectations and constructive feedback.
+
+Responsibilities that are not part of this role
+
+   * Having 1-on-1’s with team members.
+   * Performing annual reviews of team members.
+   * Managing hiring and firing of team members.
+   * Determining promotions or compensation changes for team members.
 
 ### Engineering Manager
 

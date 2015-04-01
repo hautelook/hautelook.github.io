@@ -1,13 +1,30 @@
 ---
 layout: default
-title: HauteLook Engineering
+title: Herman J. Radtke III
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.
+</p>
+<p>
+Check out our open source projects on <a href="http://github.com/hautelook">github</a>.
+</p>
+
+<!-- eventually make this featured articles -->
+<h2>Recent Articles</h2>
+<ul>
+  {% for post in site.posts limit: 5 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>  - <small>{{ post.date | date_to_string }}</small>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Older Articles</h2>
+<ul>
+  {% for post in site.posts offset: 5 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>  - <small>{{ post.date | date_to_string }}</small>
+    </li>
+  {% endfor %}
+</ul>

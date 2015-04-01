@@ -1,3 +1,12 @@
-name: HauteLook Engineering
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+highlighter: pygments
+
+exclude: []
+
+paginate: 5
+
+title: HauteLook Technology
+url: http://hautelook.github.io/
+baseurl: /
+blog: "<a href='/'>blog</a>"
+feed: "<a href='/atom.xml'>atom feed</a>"

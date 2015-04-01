@@ -1,9 +1,46 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Herman J. Radtke III" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="/css/syntax.css"/>
+  </head>
+  <body>
+    <div class="container post">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+	  <header>
+            <h1>{{ site.title }}</h1>
+	    <p>Read more of our {{ site.blog }} or subscribe to our {{ site.feed }}.</p>
+	  </header>
 
-<div class="post">
-{{ content }}
-</div>
+          <hr/>
+
+	  <article>
+	    <header>
+              <h1 class="title">{{ page.title }}</h1>
+              <p class="text-muted">Written by {{ page.author }} on {{ page.date | date_to_string }}</p>
+	    </header>
+	    
+	    {{ content }}
+	    
+	  </article>
+
+          <hr/>
+
+	  <footer>
+	    {% include twitter.html %}
+	  </footer>
+        </div>
+      </div>
+    </div>
+    {% if site.env != 'development' %}
+        {% include ga.html %}
+    {% endif %}
+  </body>
+</html>
