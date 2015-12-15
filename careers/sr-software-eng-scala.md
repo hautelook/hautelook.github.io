@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: none
 title: Senior Software Engineer (Scala)
 ---
 
@@ -15,18 +15,18 @@ This role will be working on a new rapid-growth business developed last year - N
 
 ## Responsibilities
 
-    * Write, build and develop services using primarily Scala and other JVM-based technologies where appropriate
-    * Develop search and personalization web products and services with Solr and possibly Elastic Search
-    * Partner with the Mobile Dev Team to trial and quickly iterate new functionality (our mobile development team is a quick and agile unit that delivers features and fixes fast, while shipping excellent code without adherence to ceremony or dogmatic process.)
-    * Work with decorated and forward-thinking collaborators to build amazing products
+   * Write, build and develop services using primarily Scala and other JVM-based technologies where appropriate
+   * Develop search and personalization web products and services with Solr and possibly Elastic Search
+   * Partner with the Mobile Dev Team to trial and quickly iterate new functionality (our mobile development team is a quick and agile unit that delivers features and fixes fast, while shipping excellent code without adherence to ceremony or dogmatic process.)
+   * Work with decorated and forward-thinking collaborators to build amazing products
 
 ## Qualifications
 
-    * BS degree or higher in Computer Science
-    * Advanced experience in software development using Scala or another functional language such as Clojure, and can quickly learn Scala
-    * Experience with Solr/SolrCloud/ElasticSearch is a big plus
-    * Good judgment that results in on time feature delivery while ensuring a maintainable codebase
-    * Willingness to demonstrate leadership in design & architectural discussions
-    * Ability to provide value to the company’s larger mission in the form of tangible results while continuing to learn and raise their own ceiling
-    * Excellent communication skills that directly addresses any concerns or feedback, one who agrees that continual conversation minimizes friction and maximizes benefit for all
-    * Demonstrated track record in building and releasing core business applications and the ability to learn from failures along the way
+   * BS degree or higher in Computer Science
+   * Advanced experience in software development using Scala or another functional language such as Clojure, and can quickly learn Scala
+   * Experience with Solr/SolrCloud/ElasticSearch is a big plus
+   * Good judgment that results in on time feature delivery while ensuring a maintainable codebase
+   * Willingness to demonstrate leadership in design & architectural discussions
+   * Ability to provide value to the company’s larger mission in the form of tangible results while continuing to learn and raise their own ceiling
+   * Excellent communication skills that directly addresses any concerns or feedback, one who agrees that continual conversation minimizes friction and maximizes benefit for all
+   * Demonstrated track record in building and releasing core business applications and the ability to learn from failures along the way
