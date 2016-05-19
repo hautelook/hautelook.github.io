@@ -1,9 +1,9 @@
 markdown: kramdown
-highlighter: pygments
+
+kramdown:
+  input: GFM
 
 exclude: [Vagrantfile, vendor]
-
-paginate: 5
 
 title: HauteLook Technology
 url: http://hautelook.github.io/
